@@ -1,0 +1,43 @@
+{
+  "name": "@analyzemail/inbound-guard",
+  "version": "0.1.0",
+  "description": "Score an incoming email as cold outreach, with the reasons: sequencer fingerprints, look-alike sending domains, new domains, follow-up patterns. CLI, MCP server and library. Zero dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Analyzemail",
+  "homepage": "https://github.com/analyzemail/inbound-guard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/analyzemail/inbound-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/analyzemail/inbound-guard/issues"
+  },
+  "keywords": [
+    "email",
+    "cold-email",
+    "inbox",
+    "spam",
+    "sales-outreach",
+    "mcp",
+    "mcp-server",
+    "ai-agents"
+  ],
+  "bin": {
+    "inbound-guard": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "node --test"
+  }
+}

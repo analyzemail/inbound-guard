@@ -1,0 +1,27 @@
+From: "Dana Price" <dana@getacme.io>
+To: you@example.com
+Subject: Quick question about your onboarding
+Date: Mon, 12 Oct 2026 09:14:00 +0000
+Message-ID: <abc123@getacme.io>
+Reply-To: dana@acme.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sam,
+
+I came across your team on LinkedIn. Worth a quick chat? 15 minutes next we=
+ek would do.
+
+Dana
+
+--b1
+Content-Type: text/html; charset=utf-8
+
+<p>Hi Sam,</p><p>I came across your team on LinkedIn. Worth a quick chat?</p>
+<a href="https://track.lemlist.com/c/abc">acme.com</a>
+<img src="https://track.lemlist.com/o/abc.png" width="1" height="1">
+--b1--
